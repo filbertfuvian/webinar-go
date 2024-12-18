@@ -2,17 +2,20 @@ import { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "@/firebase";
 import styles from "@/styles/Auth.module.css";
+import { useRouter } from 'next/router';
 
 export default function Register() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const router = useRouter();
 
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      // Redirect to homepage or dashboard
+      alert('User  registered successfully!');
+      router.push('/');
     } catch (err) {
       setError(err.message);
     }

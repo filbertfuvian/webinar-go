@@ -14,7 +14,7 @@ const NavBar = () => {
         <nav className={styles.navbar}>
             <div className={styles.left}>
                 <Link href="/" className={styles.logo}>
-                    <img src="/logo.png" alt="Logo" className={styles.logoImage} />
+                    <img src="/icon.png" alt="Logo" className={styles.logoImage} />
                 </Link>
                 <ul className={styles.navList}>
                     <li className={styles.navItem}>
@@ -36,8 +36,8 @@ const NavBar = () => {
             </div>
             <div className={styles.right}>
                 <div className={styles.profile} onClick={toggleMenu}>
-                    <img src="/profile.png" alt="Profile" className={styles.profileImage} />
                     <span className={styles.profileText}>Profile</span>
+                    <img src="/icon.png" alt="Profile" className={styles.profileImage} />
                 </div>
                 {menuOpen && (
                     <div className={styles.menu}>
