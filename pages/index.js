@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Webinar Platform</title>
+        <title>WebinarGo</title>
         <meta name="description" content="Join live webinars and learn from experts" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -14,13 +14,13 @@ export default function Home() {
       <div className={styles.page}>
         <header className={styles.header}>
           <Image
-            src="/logo.png"
+            src="/icon.png"
             alt="Webinar Platform Logo"
             width={150}
             height={50}
             priority
           />
-          <h1>Welcome to Webinar Platform</h1>
+          <h1>Welcome to WebinarGo</h1>
           <p>Join live webinars and learn from experts in various fields.</p>
         </header>
         <main className={styles.main}>
@@ -29,7 +29,7 @@ export default function Home() {
             <div className={styles.webinarList}>
               <div className={styles.webinarItem}>
                 <Image
-                  src="/webinar1.jpg"
+                  src="/icon.png"
                   alt="Webinar 1"
                   width={300}
                   height={200}
@@ -39,7 +39,7 @@ export default function Home() {
               </div>
               <div className={styles.webinarItem}>
                 <Image
-                  src="/webinar2.jpg"
+                  src="/icon.png"
                   alt="Webinar 2"
                   width={300}
                   height={200}
@@ -49,7 +49,7 @@ export default function Home() {
               </div>
               <div className={styles.webinarItem}>
                 <Image
-                  src="/webinar3.jpg"
+                  src="/icon.png"
                   alt="Webinar 3"
                   width={300}
                   height={200}
@@ -61,7 +61,7 @@ export default function Home() {
           </section>
         </main>
         <footer className={styles.footer}>
-          <p>&copy; 2023 Webinar Platform. All rights reserved.</p>
+          <p>&copy; 2023 WebinarGo. All rights reserved.</p>
         </footer>
       </div>
     </>

@@ -1,26 +1,87 @@
 .navbar {
-    background-color: #333;
+    background-color: #1F509A;
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 1rem;
+  }
+  
+  .logoImage {
+    width: 50px;
+    height: auto;
   }
   
   .navList {
     list-style: none;
     display: flex;
-    justify-content: space-around;
     margin: 0;
     padding: 0;
   }
   
   .navItem {
-    margin: 0;
+    margin: 0 1rem;
   }
   
   .navLink {
-    color: white;
+    color: #D4EBF8;
     text-decoration: none;
     font-size: 1.2rem;
   }
   
   .navLink:hover {
     text-decoration: underline;
+  }
+  
+  .right {
+    position: relative;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .profileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  
+  .profileText {
+    color: #D4EBF8;
+    font-size: 1.2rem;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #1F509A;
+    border: 1px solid #D4EBF8;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .menuItem {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #D4EBF8;
+    text-decoration: none;
+    margin: 0 1rem; 
+  }
+  
+  .menuItem:hover {
+    background-color: #0A3981;
   }
