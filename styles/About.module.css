@@ -1,0 +1,13 @@
+.page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .pageTitle {
+    margin-bottom: 20px;
+  }
+  
+  .pageDescription {
+    color: #6c757d;
+  }
