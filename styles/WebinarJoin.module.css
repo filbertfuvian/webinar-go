@@ -1,0 +1,40 @@
+.page {
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .topic {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .speaker,
+  .date {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .joinButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--foreground);
+    color: var(--background);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

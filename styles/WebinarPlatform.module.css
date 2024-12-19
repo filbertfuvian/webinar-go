@@ -1,0 +1,63 @@
+.page {
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.webinarContent {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: var(--background);
+  border: 1px solid var(--foreground);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatSection {
+  width: 100%;
+  max-width: 800px;
+}
+
+.chatBox {
+  border: 1px solid var(--foreground);
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: var(--background);
+}
+
+.chatMessage {
+  margin: 5px 0;
+}
+
+.chatInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--foreground);
+  box-sizing: border-box;
+}
+
+.certificateButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--foreground);
+  color: var(--background);
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}

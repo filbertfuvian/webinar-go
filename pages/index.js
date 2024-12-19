@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 
 export default function Home() {
@@ -27,16 +28,18 @@ export default function Home() {
           <section className={styles.featuredWebinars}>
             <h2>Featured Webinars</h2>
             <div className={styles.webinarList}>
-              <div className={styles.webinarItem}>
-                <Image
-                  src="/icon.png"
-                  alt="Webinar 1"
-                  width={300}
-                  height={200}
-                />
-                <h3>Webinar Title 1</h3>
-                <p>Join us for an in-depth discussion on topic 1.</p>
-              </div>
+              <Link href="/webinarJoin">
+                <div className={styles.webinarItem}>
+                  <Image
+                    src="/icon.png"
+                    alt="Webinar Prototype"
+                    width={300}
+                    height={200}
+                  />
+                  <h3>Webinar Prototype</h3>
+                  <p>Join us for an in-depth discussion on topic.</p>
+                </div>
+              </Link>
               <div className={styles.webinarItem}>
                 <Image
                   src="/icon.png"
