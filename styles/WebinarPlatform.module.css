@@ -15,7 +15,7 @@
 
 .webinarContent {
   width: 100%;
-  max-width: 800px;
+  max-width: 840px;
   margin-bottom: 20px;
   padding: 20px;
   background-color: var(--background);
@@ -34,17 +34,18 @@
   border: 1px solid var(--foreground);
   padding: 10px;
   margin-bottom: 10px;
-  background-color: var(--background);
+  background-color: var(--foreground);
 }
 
 .chatMessage {
   margin: 5px 0;
+  color: var(--background);
 }
 
 .chatInput {
   width: 100%;
   padding: 10px;
-  border: 1px solid var(--foreground);
+  border: 1px solid var(--background);
   box-sizing: border-box;
 }
 

@@ -40,26 +40,30 @@ export default function Home() {
                   <p>Join us for an in-depth discussion on topic.</p>
                 </div>
               </Link>
-              <div className={styles.webinarItem}>
-                <Image
-                  src="/icon.png"
-                  alt="Webinar 2"
-                  width={300}
-                  height={200}
-                />
-                <h3>Webinar Title 2</h3>
-                <p>Learn the latest trends in topic 2.</p>
-              </div>
-              <div className={styles.webinarItem}>
-                <Image
-                  src="/icon.png"
-                  alt="Webinar 3"
-                  width={300}
-                  height={200}
-                />
-                <h3>Webinar Title 3</h3>
-                <p>Discover new insights on topic 3.</p>
-              </div>
+              <Link href="/webinarRegister">
+                <div className={styles.webinarItem}>
+                  <Image
+                    src="/icon.png"
+                    alt="Webinar 2"
+                    width={300}
+                    height={200}
+                  />
+                  <h3>Webinar 2</h3>
+                  <p>Join us for an in-depth discussion on topic.</p>
+                </div>
+              </Link>
+              <Link href="/webinarJoin">
+                <div className={styles.webinarItem}>
+                  <Image
+                    src="/icon.png"
+                    alt="Webinar 3"
+                    width={300}
+                    height={200}
+                  />
+                  <h3>Webinar 3</h3>
+                  <p>Join us for an in-depth discussion on topic.</p>
+                </div>
+              </Link>
             </div>
           </section>
         </main>

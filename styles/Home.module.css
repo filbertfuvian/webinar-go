@@ -5,9 +5,10 @@
 }
 
 .header {
-  /* background-color: #f8f9fa; */
+  background-color: #333333;
   padding: 20px;
-  border-bottom: 1px solid #E38E49;
+  width: 100%;
+  border-bottom: 1px solid #171717;
 }
 
 .header h1 {
@@ -48,6 +49,6 @@
 .footer {
   margin-top: 40px;
   padding: 20px;
-  /* background-color: #f8f9fa; */
-  border-top: 1px solid #E38E49;
+  background-color: #1F509A;
+  border-top: 1px solid #1F509A;
 }

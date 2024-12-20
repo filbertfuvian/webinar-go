@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "@/styles/WebinarPlatform.module.css";
 
 export default function WebinarPlatform() {
@@ -15,12 +14,10 @@ export default function WebinarPlatform() {
         </header>
         <main className={styles.main}>
           <section className={styles.webinarContent}>
-            <Image
-              src="/icon.png"
-              alt="Webinar Placeholder"
-              width={800}
-              height={450}
-            />
+            <video width="800" height="450" controls>
+              <source src="/path/to/your/video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </section>
           <section className={styles.chatSection}>
             <h2>Webinar Chat</h2>
