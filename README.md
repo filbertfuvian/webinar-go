@@ -11,3 +11,8 @@ Fitur-fitur Prototype :
 ![Webinar Screen](https://github.com/user-attachments/assets/a17a0efc-983e-4a7e-9c21-9e5c943a832f)
 
 Petunjuk Penggunaan Prototype :
+1. Pengguna membuka prototype melalui link yang tertera.
+2. Pengguna melakukan registrasi dan login.
+3. Pengguna memasuki mainpage.
+4. Pengguna dapat memasuki salah satu webinar yang tersedia.
+5. Pengguna mengikuti webinar yang sedang berlangsung.
