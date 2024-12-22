@@ -12,7 +12,8 @@ Fitur-fitur Prototype :
 
 Petunjuk Penggunaan Prototype :
 1. Pengguna membuka prototype melalui link yang tertera.
-2. Pengguna melakukan registrasi dan login.
+(https://filbertfuvian.github.io/webinar-go/)
+2. Pengguna melakukan registrasi.
 3. Pengguna memasuki mainpage.
 4. Pengguna dapat memasuki salah satu webinar yang tersedia.
 5. Pengguna mengikuti webinar yang sedang berlangsung.
